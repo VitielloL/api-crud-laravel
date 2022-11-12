@@ -3,3 +3,4 @@
 .env
 mix-manifest.json
 composer.lock
+package-lock.json
