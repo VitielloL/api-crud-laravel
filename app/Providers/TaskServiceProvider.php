@@ -25,6 +25,6 @@ class TaskServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //$this->app->bind(PessoaServiceInterface::class, PessoaService::class);
+        $this->app->bind(PessoaServiceInterface::class, PessoaService::class);
     }
 }

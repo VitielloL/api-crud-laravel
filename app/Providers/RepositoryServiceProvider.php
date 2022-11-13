@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Repositories\PessoaRepository;
+use App\Repositories\PessoaRepositoryEloquent;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -23,7 +25,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(\App\Repositories\PessoaRepository::class, \App\Repositories\PessoaRepositoryEloquent::class);
+        $this->app->bind(PessoaRepository::class, PessoaRepositoryEloquent::class);
         //:end-bindings:
     }
 }

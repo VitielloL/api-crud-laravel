@@ -25,8 +25,6 @@ class PessoaRepositoryEloquent extends BaseRepository implements PessoaRepositor
         return Pessoa::class;
     }
 
-    
-
     /**
      * Boot up the repository, pushing criteria
      */
@@ -34,5 +32,4 @@ class PessoaRepositoryEloquent extends BaseRepository implements PessoaRepositor
     {
         $this->pushCriteria(app(RequestCriteria::class));
     }
-    
 }
