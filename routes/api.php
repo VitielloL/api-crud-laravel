@@ -2,7 +2,6 @@
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Api\PessoaController;
-use App\Http\Controllers\Api\PeopleController;
 
 Route::group(['prefix' => 'v1'], function () {
     Route::get('/pessoa', 'Api\PessoaController@index');
