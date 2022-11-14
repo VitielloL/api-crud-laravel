@@ -1,4 +1,4 @@
-# desafio-api-crud-laravel6x
+# api-crud-laravel6x
 
 Desafio - api para cadastro de pessoa
 * cadastrar/editar/ler1/deletar/lerTodos pessoas;
