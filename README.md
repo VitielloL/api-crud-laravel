@@ -1,6 +1,6 @@
 # api-crud-laravel6x
 
-Desafio - api para cadastro de pessoa
+Desafio - API para cadastro de pessoa
 * cadastrar/editar/ler1/deletar/lerTodos pessoas;
 * Validar o CEP enviado na requisição de cadastro e updat, o CEP precisa ser válido e constar na base de dados do ViaCEP: https://viacep.com.br.
 * Validar o CPF enviado na requisição de cadastro e update.
